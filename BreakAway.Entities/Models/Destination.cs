@@ -31,6 +31,6 @@ namespace BreakAway.Entities.Models
 
         public string ClimateInfo { get; set; }
 
-        public List<Lodging> Lodgings { get; set; }
+        public virtual List<Lodging> Lodgings { get; set; }
     }
 }
